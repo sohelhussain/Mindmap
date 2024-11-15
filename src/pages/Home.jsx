@@ -156,12 +156,12 @@ function Home() {
           <div class=" page4-div2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-5xl">
 
             
-            <VisitCards />
-            <VisitCards />
-            <VisitCards />
-            <VisitCards />
-            <VisitCards />
-            <VisitCards />
+            <VisitCards title={'The Great Stupa of Sanchi'} hed={'Bhopal'} />
+            <VisitCards title={'The Khajuraho Group of Temples'} hed={'Khajuraho'} />
+            <VisitCards title={'Gwalior Fort'} hed={'Gwalior'} />
+            <VisitCards title={'Omkareshwar Temple'} hed={'Omkareshwar'} />
+            <VisitCards title={'Bir Singh Palace, Datia'} hed={'Datia'} />
+            <VisitCards title={'Mahakaleshwar Temple, Ujjain'} hed={'Ujjain'} />
 
 
 

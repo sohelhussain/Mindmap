@@ -1,21 +1,21 @@
 import React from 'react'
 
-function VisitCards() {
+function VisitCards({title,hed}) {
   return (
     <div class="bg-white shadow-md rounded-lg overflow-hidden">
     <div class="relative">
       <img
         src="/sachi bhopal.jpg"
-        alt="Bhopal"
+        alt={hed}
         class="w-full h-48 object-cover"
       />
       <span class="absolute top-2 left-2 bg-[#0A62A0] text-white text-sm px-2 py-1 rounded">
-        Bhopal
+        {hed}
       </span>
     </div>
     <div class="p-4">
       <p class="text-center font-semibold text-gray-700">
-        The Great Stupa of Sanchi
+        {title}
       </p>
       <div class="flex justify-center mt-4">
         <a
