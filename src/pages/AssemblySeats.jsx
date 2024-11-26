@@ -20,7 +20,9 @@ function AssemblySeats({title, hed}) {
       <div className="p-4 md:p-8">
         <SubHead hed={'AC Seat'} search={params.search}/>
         <div className="flex flex-wrap gap-4">
+          
           {/* Card 1 */}
+          
           <div className="w-full border-2 md:w-1/2 lg:w-1/3 bg-white shadow-md p-4 lg:h-44 ">
             <h3 className="text-xl font-semibold">Important Region Details</h3>
             <ul className="mt-2">
